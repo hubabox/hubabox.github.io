@@ -4,3 +4,7 @@
 .cube-label { fill: #14151c; font-family: system-ui, sans-serif; font-size: 18px; font-weight: 850; letter-spacing: -1px; pointer-events: none; text-anchor: middle; }
 .cube-label-top { font-size: 14px; }
 .cube-label-left { transform: skewY(29deg) scaleY(.8); transform-origin: 28px 70px; }
+
+nav { display: flex; gap: 22px; }
+nav a, footer a { color: var(--ink); font-size: .87rem; text-decoration: none; }
+nav a:hover, .text-link:hover { opacity: .58; }
