@@ -1,0 +1,6 @@
+.cube-top { fill: var(--lime-top); }
+.cube-left { fill: var(--lime); }
+.cube-right { fill: var(--lime-side); }
+.cube-label { fill: #14151c; font-family: system-ui, sans-serif; font-size: 18px; font-weight: 850; letter-spacing: -1px; pointer-events: none; text-anchor: middle; }
+.cube-label-top { font-size: 14px; }
+.cube-label-left { transform: skewY(29deg) scaleY(.8); transform-origin: 28px 70px; }
